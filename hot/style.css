@@ -1,18 +1,10 @@
 .logoimage{
     width: 60%;
 }
-
 #navbarNav {
 background-color: burlywood;
 border-radius: 10px;
 padding-right: 10px;
-
-}
-
-.button-style{
-background-image: linear-gradient(to bottom,rgb(17, 212, 92) 0%, rgb(15, 116, 40) 100%);
-color: white;
-border-radius: 12px;
 }
 .orange-bg{
 background-color: aquamarine;
@@ -23,41 +15,49 @@ background-color: aquamarine;
 h1{
 color: rgb(10, 156, 137);    
 }
-
-.container-padding{
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-.container-padding02{
-    padding-bottom:60px;
-}
-.button-style02{
-    background-image: linear-gradient(to bottom,rgb(214, 74, 10) 0%, rgb(204, 109, 19) 100%);
-    color: white;
-    border-radius: 12px;
+.button-style{
+    background-color:#2bb4a1;
+    border:medium none;
+    border-radius: 30px;
+    color:#fff;
+    cursor:pointer;
+    font-size:20px;
+    padding: 15px 20px;
     }
-
-h4{
-    text-align: center;
+.button-style:hover{
+    background-color:#000;
+    color:#f40000	
+    }
+.button-style02{
+        background-color:#448c25;
+        border:medium none;
+        border-radius: 30px;
+        color:#fff;
+        cursor:pointer;
+        font-size:20px;
+        padding: 20px 30px;	
+            
+        }  
+.button-style02:hover{
+        background-color:#000;
+        color:#f40000
+        }
+.in-padding{
+    padding: 30px 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+h6{
+    color: darkgoldenrod;
+}
+.last-img{
+    width: 100%;
+}
+.last-padding{
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.first-pic{
+padding-bottom: 120px;
+}
+.shoe-img{
+padding-top: 120px;
+}
